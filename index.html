@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="inputEmail">
+        </div>
+     
+        <div class="col-md-6">
+            <label for="inputPassword" class="form-label">Senha:</label>
+            <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <div class="col-12">
+            <button type="button" onclick="login()" class="btn btn-primary">Entrar</button>
+            <!-- Botão "Esqueci minha senha" -->
+            <a href="forgot_password.html" class="btn btn-link">Esqueci minha senha</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, if you need some JS functionality from Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-D/2XoQj7QeLrMoyjNqNfTKzpDCs69NTbSj/hkz17u6Iu6PFpR8eBz4D++M+2f5z6" crossorigin="anonymous"></script>
+
+    <!-- JavaScript for form validation and interaction -->
+    <script src="main.js"></script>
+</body>
+</html>
