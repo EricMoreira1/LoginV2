@@ -17,10 +17,10 @@ A escolha de design do site foi feita por designers profissionais<br>
 ![Logo da empresa](imagem/Alpha.png)
 
 ## imagem do site1
-![Capa do projeto](imagem/Captura%20de%20tela%202024-04-18%20094519.png)
+![Capa do projeto](imagem/Captura%20de%20tela%202024-04-18%20111938.png)
 
 ## imagem do site2
-![Capa do projeto](imagem/Captura%20de%20tela%202024-04-18%20094535.png)
+![Capa do projeto](imagem/Captura%20de%20tela%202024-04-18%20112049.png)
 
 # Tecnologias utilizadas 
 *`HTML5`<br>
