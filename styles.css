@@ -8,20 +8,20 @@ table, td, tr{
     border-collapse: collapse;
    
 }
-body{
-    width: 100%;
-    height: 100vh;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(-45deg, #009c7a, #1fcaad, #3be7ae, #80ffce, #f4ffce);
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
- 
+
 .container {
     display: flex;
-    top: 40%;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     border: 2px solid #ccc;
-    background-color: azure;
     border-radius: 10px;
 }
