@@ -32,5 +32,6 @@ function login() {
         // Check if the email and password match with the records in your database
         // Return true if authentication succeeds, otherwise false
     }
+    
     */
 }
