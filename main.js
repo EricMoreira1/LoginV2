@@ -34,4 +34,25 @@ function login() {
     }
     
     */
+   
+}
+function cadastrar() {
+    var nome = document.getElementById('inputName').value;
+    var cpf = document.getElementById('inputcpf').value;
+    var email = document.getElementById('inputEmail').value;
+    var senha = document.getElementById('inputPassword').value;
+    var confirmSenha = document.getElementById('inputConfirmPassword').value;
+
+    // Verifica se todos os campos estão preenchidos
+    if (nome === '' || cpf === '' || email === '' || senha === '' || confirmSenha === '') {
+        alert('Por favor, preencha todos os campos.');
+    } else if (senha !== confirmSenha) {
+        alert('A senha e a confirmação de senha não são iguais.');
+    } else {
+        // Aqui você pode adicionar a lógica para enviar o formulário ou realizar outras ações
+        // Por exemplo, você pode enviar os dados para o servidor para processamento
+        // Ou redirecionar o usuário para outra página
+        alert('Cadastro realizado com sucesso!');
+        window.location.href = 'page.html'; // Redireciona para outra página após o cadastro bem-sucedido
+    }
 }

@@ -3,14 +3,23 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Login</title>
+    <title>Cadastre-se</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style1.css'>
     <!-- Bootstrap CSS -->
-  </head>
+</head>
 <body>
     <div class="container">
-        <h1>Login</h1>
+        <h1>Criar conta</h1>
+        <div class="col-md-6">
+            <label for="inputName" class="form-label">Nome:</label>
+            <input type="name" class="form-control" id="inputName">
+        </div>
+        <div class="col-md-6">
+            <label for="inputcpf" class="form-label">CPF:</label>
+            <input type="cpf" class="form-control" id="inputcpf">
+        </div>
+
         <div class="col-md-6">
             <label for="inputEmail" class="form-label">Email:</label>
             <input type="email" class="form-control" id="inputEmail">
@@ -20,13 +29,18 @@
             <label for="inputPassword" class="form-label">Senha:</label>
             <input type="password" class="form-control" id="inputPassword">
         </div>
+
+
+        <div class="col-md-6">
+            <label for="inputConfirmPassword" class="form-label">Confirme a senha:</label>
+            <input type="password" class="form-control" id="inputConfirmPassword">
+        </div>
         <div class="col-12">
-            <button type="button" onclick="login()" class="btn btn-primary">Entrar</button>
+            <button type="button" onclick="cadastrar()" class="btn btn-primary">Começar</button>
             <!-- Botão "Esqueci minha senha" -->
-            <a href="forgot_password.html" class="btn btn-link">Esqueci minha senha</a>
+            <a href="index.html" class="btn btn-link">login</a>
         </div>
     </div>
-    <!-- JavaScript for form validation and interaction -->
     <script src="main.js"></script>
 </body>
 </html>
