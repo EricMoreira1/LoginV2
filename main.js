@@ -6,8 +6,10 @@ function login() {
     if (email.trim() === "" || password.trim() === "") {
         alert("Por favor, preencha todos os campos.");
         return;
-    }
-
+    } 
+    alert('Login realizado com sucesso!'); {
+    window.location.href = 'page.html';
+} // R
     // Placeholder Java code for handling form submission and authentication
     // This part needs to be implemented on the server-side
     // Example Java code (Servlet):
